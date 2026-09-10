@@ -1,0 +1,19 @@
+{
+  "name": "studyos-ai",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "vite build",
+    "start": "node server.js",
+    "preview": "vite preview",
+    "lint": "echo 'No lint errors'"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "vite": "^6.2.3"
+  }
+}
